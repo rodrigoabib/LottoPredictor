@@ -1,0 +1,38 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "a1cd9d8fc9461be48fc8280348a73b3b2048b424"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "IALoteria.App/1.0.0": {
+        "dependencies": {
+          "encog-dotnet-core": "3.4.0"
+        },
+        "runtime": {
+          "IALoteria.App.dll": {}
+        }
+      },
+      "encog-dotnet-core/3.4.0": {
+        "runtime": {
+          "lib/encog-core-cs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IALoteria.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "encog-dotnet-core/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SczetlEHOSOJpEQnNadzJLnVZCKjW+6fVsbmBa13jUCCZlI2xStx9TeKzBdjVg3EFaOKrLfKgCpQZGHxveAquQ==",
+      "path": "encog-dotnet-core/3.4.0",
+      "hashPath": "encog-dotnet-core.3.4.0.nupkg.sha512"
+    }
+  }
+}
