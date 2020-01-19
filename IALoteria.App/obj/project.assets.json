@@ -691,11 +691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jessica/Projetos/Loteria/IALoteria.App/IALoteria.App.csproj",
+      "projectUniqueName": "/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/IALoteria.App.csproj",
       "projectName": "IALoteria.App",
-      "projectPath": "/home/jessica/Projetos/Loteria/IALoteria.App/IALoteria.App.csproj",
+      "projectPath": "/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/IALoteria.App.csproj",
       "packagesPath": "/home/jessica/.nuget/packages/",
-      "outputPath": "/home/jessica/Projetos/Loteria/IALoteria.App/obj/",
+      "outputPath": "/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

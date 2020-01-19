@@ -20,8 +20,23 @@ namespace LottoPredictor
     {
         static void Main(string[] args)
         {
-            //MegasenaExecutor.Run();
-            LotoFacilExecutor.Run();
+            Console.WriteLine("Qual jogo deseja rodar?\n");
+            Console.WriteLine("=======================\n");
+            Console.WriteLine("1 - Megasena\n");
+            Console.WriteLine("2 - LotoFácil\n");
+            var opt = Console.ReadLine();
+            Console.WriteLine("\nQuantos jogos deseja rodar?\n");
+            var qtdJogos = Convert.ToInt32(Console.ReadLine());
+
+            switch (opt)
+            {
+                case "1":
+                    MegasenaExecutor.Run(qtdJogos);
+                    break;
+                case "2":
+                    LotoFacilExecutor.Run(qtdJogos);
+                    break;
+            }
         }   
     }
 }
