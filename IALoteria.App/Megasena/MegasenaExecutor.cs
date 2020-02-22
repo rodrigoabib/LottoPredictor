@@ -7,7 +7,7 @@ namespace Megasena
 {
     public static class MegasenaExecutor
     {
-        public static void Run(int qtdJogos, string datasetFile)
+        public static void Run(int qtdJogos, string datasetFile, int deepness)
         {
             var fileDB = Path.GetTempFileName();
             var trainningDataset = Path.Combine(Environment.CurrentDirectory, "Megasena/"+datasetFile);
@@ -26,7 +26,7 @@ namespace Megasena
                 {
                     for (int i = 0; i < qtdJogos; i++)
                     {
-                        predictResults.Add(MegasenaPredictor.TrainModel(dbl));
+                        predictResults.Add(MegasenaPredictor.TrainModel(dbl, deepness));
                     }
 
                     Console.WriteLine("\n\n================================================================");

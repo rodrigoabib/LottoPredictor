@@ -34,14 +34,14 @@ namespace Megasena
                 }
             }
 
-            //dbl.Reverse();
+            dbl.Reverse();
 
             return true;
         }
 
-        public static String TrainModel(MegasenaListResult dbl)
+        public static String TrainModel(MegasenaListResult dbl, int deepness)
         {
-            var deep = 20;
+            var deep = deepness;
             var network = new BasicNetwork();
 
             network.AddLayer(new BasicLayer(null, true, 6 * deep));

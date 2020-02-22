@@ -50,6 +50,8 @@ namespace LottoPredictor
                 }
             }
             
+            Console.WriteLine("Qual a profundidade da rede neural? (default: 20)\n");
+            var deepness = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("\nQuantos jogos deseja rodar?\n");
             var qtdJogos = Convert.ToInt32(Console.ReadLine());
@@ -58,7 +60,7 @@ namespace LottoPredictor
             switch (opt)
             {
                 case "1":
-                    MegasenaExecutor.Run(qtdJogos, datasetFile);
+                    MegasenaExecutor.Run(qtdJogos, datasetFile, deepness);
                     break;
                 case "2":
                     LotoFacilExecutor.Run(qtdJogos);

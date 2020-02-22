@@ -8,13 +8,3 @@
 /home/jessica/Projetos/Loteria/IALoteria.App/obj/Debug/netcoreapp2.0/IALoteria.App.AssemblyInfo.cs
 /home/jessica/Projetos/Loteria/IALoteria.App/obj/Debug/netcoreapp2.0/IALoteria.App.dll
 /home/jessica/Projetos/Loteria/IALoteria.App/obj/Debug/netcoreapp2.0/IALoteria.App.pdb
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/bin/Debug/netcoreapp2.0/IALoteria.App.deps.json
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/bin/Debug/netcoreapp2.0/IALoteria.App.runtimeconfig.json
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/bin/Debug/netcoreapp2.0/IALoteria.App.runtimeconfig.dev.json
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/bin/Debug/netcoreapp2.0/IALoteria.App.dll
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/bin/Debug/netcoreapp2.0/IALoteria.App.pdb
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/obj/Debug/netcoreapp2.0/IALoteria.App.csproj.CoreCompileInputs.cache
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/obj/Debug/netcoreapp2.0/IALoteria.App.AssemblyInfoInputs.cache
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/obj/Debug/netcoreapp2.0/IALoteria.App.AssemblyInfo.cs
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/obj/Debug/netcoreapp2.0/IALoteria.App.dll
-/home/jessica/Projetos/Loteria/LottoPredictor/IALoteria.App/obj/Debug/netcoreapp2.0/IALoteria.App.pdb
