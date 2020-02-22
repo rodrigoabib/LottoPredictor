@@ -20,18 +20,45 @@ namespace LottoPredictor
     {
         static void Main(string[] args)
         {
+            var datasetFile = String.Empty;
             Console.WriteLine("Qual jogo deseja rodar?\n");
             Console.WriteLine("=======================\n");
             Console.WriteLine("1 - Megasena\n");
             Console.WriteLine("2 - LotoFácil\n");
             var opt = Console.ReadLine();
+
+            if(opt == "1")
+            {
+                Console.WriteLine("Qual dataset deseja usar?\n");
+                Console.WriteLine("=======================\n");
+                Console.WriteLine("1 - MegaSenaDataSet (old)\n");
+                Console.WriteLine("2 - MegaSenaDataSetUnsorted\n");
+                Console.WriteLine("3 - MegaSenaDataSetUnsortedNoZeros\n");
+                var optDataset = Convert.ToInt32(Console.ReadLine());
+                
+                switch (optDataset)
+                {
+                    case 1:
+                        datasetFile = "MegaSenaDataSet_old.txt";
+                        break;
+                    case 2:
+                        datasetFile = "MegaSenaDataSetUnsortedNoZeros.txt";
+                        break;
+                    case 3:
+                        datasetFile = "MegaSenaDataSetUnsorted.txt";
+                        break;
+                }
+            }
+            
+
             Console.WriteLine("\nQuantos jogos deseja rodar?\n");
             var qtdJogos = Convert.ToInt32(Console.ReadLine());
+            
 
             switch (opt)
             {
                 case "1":
-                    MegasenaExecutor.Run(qtdJogos);
+                    MegasenaExecutor.Run(qtdJogos, datasetFile);
                     break;
                 case "2":
                     LotoFacilExecutor.Run(qtdJogos);

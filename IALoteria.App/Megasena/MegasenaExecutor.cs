@@ -1,15 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Megasena
 {
     public static class MegasenaExecutor
     {
-        public static void Run(int qtdJogos)
+        public static void Run(int qtdJogos, string datasetFile)
         {
             var fileDB = Path.GetTempFileName();
-            var trainningDataset = Path.Combine(Environment.CurrentDirectory, "Megasena/MegaSenaDataSet.txt");
+            var trainningDataset = Path.Combine(Environment.CurrentDirectory, "Megasena/"+datasetFile);
             List<String> predictResults = new List<string>();
 
             try

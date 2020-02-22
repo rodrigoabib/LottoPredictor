@@ -34,7 +34,7 @@ namespace Megasena
                 }
             }
 
-            dbl.Reverse();
+            //dbl.Reverse();
 
             return true;
         }

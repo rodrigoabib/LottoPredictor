@@ -26,7 +26,7 @@ namespace LotoFacil
                     for (int i = 0; i < qtdJogos; i++)
                     {
                         predictResults.Add(LotoFacilPredictor.TrainModel(dbl));
-                    }
+                    }                 
 
                     Console.WriteLine("\n\n================================================================");
                     Console.Write("          Algoritmo Preditivo de Números da Lotofácil\n                Made with");
